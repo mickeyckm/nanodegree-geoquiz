@@ -27,8 +27,8 @@ This project is cloned and modified from the starter template provided [here](ht
 
 Screenshot | Caption
 ---------- | -----------
-![app](https://raw.github.com/mickeyckm/nanodegree-mememe/master/Screenshots/app.jpg) | App screen
+![app](https://raw.github.com/mickeyckm/nanodegree-geoquiz/master/Screenshots/app.jpg) | App screen
 
 ## License
 
-Code copyright 2016 [Mickey Cheong](https://cheo.ng) and released under the [MIT License](https://github.com/mickeyckm/nanodegree-mememe/blob/master/LICENSE).
+Code copyright 2016 [Mickey Cheong](https://cheo.ng) and released under the [MIT License](https://github.com/mickeyckm/nanodegree-geoquiz/blob/master/LICENSE).
