@@ -36,25 +36,11 @@ class QuizViewController: UIViewController {
     // This function is called when user presses a flag button.
     @IBAction func flagButtonPressed(sender: UIButton) {
 
-        // check if correct
-        var isCorrect = false
-        
         if sender.tag == correctButtonTag {
-            isCorrect = true
+            displayAlert("Correct", messageText: "Right on!")
         }
-        
-        // constructing alert title and message
-        var title = "Incorrect"
-        var message = "Try again!"
-        
-        if isCorrect {
-            title = "Correct"
-            message = "Right on!"
+        else {
+            displayAlert("Incorrect", messageText: "Try again!")
         }
-        
-        // show alert view
-        let alert = UIAlertController(title: title, message: message, preferredStyle: .Alert)
-        alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
-        self.presentViewController(alert, animated: true, completion: nil)
     }
 }
