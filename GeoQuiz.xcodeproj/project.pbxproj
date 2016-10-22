@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		702EDA1D1DBB0C6600874FA9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 702EDA1B1DBB0C6600874FA9 /* LICENSE */; };
+		702EDA1E1DBB0C6600874FA9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 702EDA1C1DBB0C6600874FA9 /* README.md */; };
+		702EDA201DBB0C9400874FA9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 702EDA1F1DBB0C9400874FA9 /* .gitignore */; };
 		A9F408BD1D19AF3A00FEEA91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F408BC1D19AF3A00FEEA91 /* AppDelegate.swift */; };
 		A9F408C21D19AF3A00FEEA91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F408C01D19AF3A00FEEA91 /* Main.storyboard */; };
 		A9F408C41D19AF3A00FEEA91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F408C31D19AF3A00FEEA91 /* Assets.xcassets */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		702EDA1B1DBB0C6600874FA9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		702EDA1C1DBB0C6600874FA9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		702EDA1F1DBB0C9400874FA9 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A9F408B91D19AF3A00FEEA91 /* GeoQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F408BC1D19AF3A00FEEA91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9F408C11D19AF3A00FEEA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +48,9 @@
 		A9F408B01D19AF3A00FEEA91 = {
 			isa = PBXGroup;
 			children = (
+				702EDA1F1DBB0C9400874FA9 /* .gitignore */,
+				702EDA1B1DBB0C6600874FA9 /* LICENSE */,
+				702EDA1C1DBB0C6600874FA9 /* README.md */,
 				A9F408BB1D19AF3A00FEEA91 /* GeoQuiz */,
 				A9F408BA1D19AF3A00FEEA91 /* Products */,
 			);
@@ -129,8 +138,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				702EDA201DBB0C9400874FA9 /* .gitignore in Resources */,
 				A9F408C41D19AF3A00FEEA91 /* Assets.xcassets in Resources */,
 				A9FA135C1D1AB99D00B5F46E /* LaunchScreen.xib in Resources */,
+				702EDA1D1DBB0C6600874FA9 /* LICENSE in Resources */,
 				A9F408C21D19AF3A00FEEA91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +155,7 @@
 			files = (
 				A9F408D11D19AF7200FEEA91 /* Country.swift in Sources */,
 				A9F408BD1D19AF3A00FEEA91 /* AppDelegate.swift in Sources */,
+				702EDA1E1DBB0C6600874FA9 /* README.md in Sources */,
 				A9F408D21D19AF7200FEEA91 /* QuizViewController.swift in Sources */,
 				A9F408D31D19AF7200FEEA91 /* QuizViewController+Functions.swift in Sources */,
 			);

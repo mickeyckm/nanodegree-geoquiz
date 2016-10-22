@@ -1,19 +1,34 @@
-<img src="https://s3-us-west-1.amazonaws.com/udacity-content/degrees/catalog-images/nd003.png" alt="iOS Developer Nanodegree logo" height="70" >
 
-# Geo Quiz
+A project designed and developed for the [iOS Developer Nanodegree](https://www.udacity.com/course/ios-developer-nanodegree--nd003) - a degree co-created by AT&T and Lyft.
 
-![Platform iOS](https://img.shields.io/badge/nanodegree-iOS-blue.svg)
 
-This repository contains starter code for the Geo Quiz project in Udacity's iOS Nanodegree.
+# GeoQuiz
 
-## Overview
+GeoQuiz is an iOS application where users try to determine the language of a spoken phrase. Supported languages include Czech, Danish, German, Spanish, French, Polish, English, and Portuguese. 
 
-Geo Quiz is an iOS application where users try to determine the language of a spoken phrase. Supported languages include  Czech, Danish, German, Spanish, French, Polish, English, and Portuguese.
+This project is cloned and modified from the starter template provided [here](https://github.com/udacity/ios-nd-geo-quiz).
 
-## Setup
 
-There are no special setup instructions, just build and run!
+## Table Of Contents
 
-## Maintainers
+- Getting Started
+- [Screenshots](#screenshots)
+- [License](#license)
 
-@jarrodparkes
+
+## Getting Started
+
+- Clone the source code: `git clone git@github.com:mickeyckm/nanodegree-geoquiz.git`
+- Open `GeoQuiz.xcodeproj` using Xcode.
+- Press `Command + R` or `Product > Run` to build and run the project.
+
+
+## Screenshots
+
+Screenshot | Caption
+---------- | -----------
+![app](https://raw.github.com/mickeyckm/nanodegree-mememe/master/Screenshots/app.jpg) | App screen
+
+## License
+
+Code copyright 2016 [Mickey Cheong](https://cheo.ng) and released under the [MIT License](https://github.com/mickeyckm/nanodegree-mememe/blob/master/LICENSE).
